@@ -18,7 +18,7 @@
 
 - https://alligator.io/react/index-js-public-interfaces/
 
-### underscore vs parenthesis for arrow fuctions with no parameter
+### Underscore vs parenthesis for arrow fuctions with no parameter
 
 - https://jaketrent.com/post/javascript-arrow-function-no-params/
 
