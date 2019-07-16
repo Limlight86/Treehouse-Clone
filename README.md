@@ -5,7 +5,7 @@
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors
 - https://codeburst.io/javascript-quickie-dot-notation-vs-bracket-notation-333641c0f781
 
-### Curry functions
+### Curried functions / Currying
 
 - https://medium.com/javascript-scene/curry-and-function-composition-2c208d774983
 - https://blog.benestudio.co/currying-in-javascript-es6-540d2ad09400
