@@ -5,10 +5,11 @@
 ```
 const topic = "html"
 const courses = {
-  html: [...],
-  css: [...],
-  javascript: [...]
+  html: [...ArrayOfHTMLCourses],
+  css: [...ArrayOfCSSCourses],
+  javascript: [...ArrayOfJavascriptCourses]
 }[topic]
+// courses === [...ArrayOfHTMLCourses]
 ```
 
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors
@@ -41,10 +42,13 @@ const isActive = true
 ### Best practices with react import / exports
 
 ```
-// /src/components/index.js
+// src/components/index.js
 export { default as Form } from './Form'
 export { default as Navbar } from './NavBar'
 export { default as Button } from './Button'
+
+// src/App.js
+import { Form, NavBar, Button } from './components'
 ```
 
 - https://alligator.io/react/index-js-public-interfaces/
