@@ -3,6 +3,7 @@
 ### Square bracket property accessor for objects
 
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors
+- https://codeburst.io/javascript-quickie-dot-notation-vs-bracket-notation-333641c0f781
 
 ### Curry functions
 
