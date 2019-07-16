@@ -31,7 +31,7 @@ const handleInputChange = field => event => {
 ```
 const foo = "truthyString"
 const isActive = true
-<div className={classNames('regular-class')} />
+<div className={classNames('regular-class1', 'regular-class2', 'regular-class3')} />
 <div className={classNames(foo ? "truthy-ternary-class" : "falsey-ternary-class" />
 <div className={classNames({ applyThisClassIfValueIsTrue: isActive })} >
 ```
