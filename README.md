@@ -17,7 +17,9 @@ const courses = {
 ### Curried functions / Currying
 
 ```
-const handleInputChange = field => event => this.setState({ [field]: event.target.value })
+const handleInputChange = field => event => {
+  this.setState({ [field]: event.target.value })
+}
 ```
 
 - https://medium.com/javascript-scene/curry-and-function-composition-2c208d774983
