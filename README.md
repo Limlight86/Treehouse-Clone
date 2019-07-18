@@ -56,13 +56,13 @@ import { Form, NavBar, Button } from './components'
 ### Async await vs then()
 ```
   // then()
-  const fetchData = () => {
+  fetchData = () => {
     axios.get('INSERT_URL_HERE')
     .then(response => this.setState({ data: response.data }))
   }
 
   // async await
-  const fetchData = async () => {
+  fetchData = async () => {
     const response = await axios.get('INSERT_URL_HERE)
     this.setState({ data: response.data })
   }
