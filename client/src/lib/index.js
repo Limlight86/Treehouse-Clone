@@ -73,6 +73,12 @@ const Teachers = _ => (
   </div>
 );
 
+const SelectedTeacher = _ => (
+  <div className="main-content">
+    <div component="TEACHER" flag="BONUS" />
+  </div>
+);
+
 /* ------------------ PAGES END ------------------------ */
 
 /* ------------------ COMPONENTS START ------------------------ */

@@ -63,7 +63,6 @@ const TeacherList = [
   }
 ];
 
-lorem
 const CSSCourses = [
   {
     title: 'CSS Basics',
