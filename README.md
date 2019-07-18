@@ -53,6 +53,24 @@ import { Form, NavBar, Button } from './components'
 
 - https://alligator.io/react/index-js-public-interfaces/
 
+### Async await vs then()
+```
+  // then()
+  const fetchData = () => {
+    axios.get('INSERT_URL_HERE')
+    .then(response => this.setState({ data: response.data }))
+  }
+
+  // async await
+  const fetchData = async () => {
+    const response = await axios.get('INSERT_URL_HERE)
+    this.setState({ data: response.data })
+  }
+```
+
+- https://javascript.info/async-await
+- https://levelup.gitconnected.com/async-await-vs-promises-4fe98d11038f
+
 ### Underscore vs parenthesis for arrow fuctions with no parameter
 
 ```
@@ -60,8 +78,7 @@ const someFunctionWithNoParameter = _ => {
   console.log('hello world')
 }
 ```
-
-- https://jaketrent.com/post/javascript-arrow-function-no-params/
+https://jaketrent.com/post/javascript-arrow-function-no-params/
 
 ### Javascript syntax style guide
 
